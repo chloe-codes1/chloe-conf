@@ -11,7 +11,5 @@
 
 <br>
 
-<br>
-
 #### [.zshrc](/zsh/zshrc.conf) 
 
