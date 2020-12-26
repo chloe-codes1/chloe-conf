@@ -15,6 +15,7 @@
 
 ### Table of Contents
 
-#### [.zshrc](/zsh/zshrc.conf) 
-#### [.gitignore](/git/gitignore.conf)
+#### [.zshrc config](/zsh/zshrc.conf) 
+#### [Common .gitignore](/git/gitignore.conf)
 
+#### [Must Have APPs to Download on Your Mac](/mac)
