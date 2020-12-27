@@ -25,5 +25,7 @@
 - Allkdict
 - Spectacle
 - Scroll Reverser
+- Medis
+- CrossFTP
 
 
