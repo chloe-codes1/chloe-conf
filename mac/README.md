@@ -27,5 +27,7 @@
 - Scroll Reverser
 - Medis
 - CrossFTP
+- Snappy
+- Itsycal
 
 
