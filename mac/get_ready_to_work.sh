@@ -14,3 +14,4 @@ open "https://us-east-1.signin.aws.amazon.com/oauth?SignatureVersion=4&X-Amz-Alg
 
 # Jira
 open https://jira.musinsa.com/login.jsp?os_destination=%2Fsecure%2FRapidBoard.jspa%3FrapidView%3D178%26projectKey%3DSYSTEM%26quickFilter%3D634
+open https://jira.musinsa.com/secure/RapidBoard.jspa?rapidView=224&projectKey=MUFRA&view=detail&selectedIssue=MUFRA-18&quickFilter=906
