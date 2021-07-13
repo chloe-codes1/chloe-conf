@@ -15,9 +15,11 @@
 
 ### Table of Contents
 
-#### [.zshrc config](/zsh/.zshrc.conf) 
+#### [`.zshrc` config](/zsh/.zshrc.conf) 
 
-#### [.tmux.conf](/tmux/.tmux.conf)
-#### [Common .gitignore](/git/gitignore.conf)
+#### [`.tmux.conf`](/tmux/.tmux.conf)
+#### [Common `.gitignore` for Python Project](/git/gitignore.conf)
 
 #### [Must Have APPs to Download on Your Mac](/mac)
+
+#### [VSCode `settings.json`](/vscode/settings.json)
