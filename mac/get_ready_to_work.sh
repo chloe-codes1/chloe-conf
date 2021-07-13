@@ -15,6 +15,9 @@ fortune -s | cowsay
 # Jandi
 open -a "Jandi"
 
+# Slack
+open -a "Slack"
+
 # OpenVPN Connect
 open -a  "OpenVPN Connect"
 
