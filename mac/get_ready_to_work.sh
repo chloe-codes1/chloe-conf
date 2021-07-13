@@ -18,6 +18,9 @@ open -a "Jandi"
 # Slack
 open -a "Slack"
 
+# Notion
+open -a "Notion"
+
 # OpenVPN Connect
 open -a  "OpenVPN Connect"
 
