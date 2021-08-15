@@ -3,32 +3,52 @@
 > It's a must!
 
 <br>
+<br>
 
+## Basic
 - Chrome
 - Firefox
+
+
+<br>
+
+## Development
 - Iterm2
 - Pycharm
 - Vscode
 - Sublime
 - Goland
-- OpenVPN Connect
 - Docker
 - Kite
 - Postman
+- Medis
+- CrossFTP
+- Cyberduck
+- DBeaver
+- Xcode
+<br>
+
+## Productivity
 - Slack
 - Jandi
 - Notion
 - Typora
 - Evernote
-- Runcat
 - CopyClip
-- Allkdict
 - Spectacle
 - Scroll Reverser
-- Medis
-- CrossFTP
 - Snappy
 - Itsycal
 - Focus To-Do
+- Gather
+- Alfred
+- Monosnap
+<br>
+
+## Etc.
+- OpenVPN Connect
+- Runcat
+- Allkdict
+- Jolt of Caffeine
 
 
