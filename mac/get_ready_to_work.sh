@@ -1,6 +1,5 @@
 WORK_TOOLS=(
   "https://jira.musinsa.com/login.jsp?os_destination=%2Fsecure%2FRapidBoard.jspa%3FrapidView%3D178%26projectKey%3DSYSTEM%26quickFilter%3D634"
-  "https://jira.musinsa.com/secure/RapidBoard.jspa?rapidView=225&projectKey=MUFRA&selectedIssue=MUFRA-28&quickFilter=909"
   "https://wiki.musinsa.com/pages/viewpage.action?pageId=1507333"
 )
 
@@ -11,9 +10,6 @@ if [[ -n "$1" ]] && [[ $1 == "moro" ]]; then
 fi
 
 fortune -s | cowsay
-
-# Jandi
-open -a "Jandi"
 
 # Slack
 open -a "Slack"
