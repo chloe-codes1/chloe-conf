@@ -1,92 +1,120 @@
-{   "files.associations": {
-  "**/templates/*.html": "django-html",
-  "**/templates/*": "json",
-  "**/requirements{/**,*}.{txt,in}": "pip-requirements",
-  "*.html": "html"
-},
-"emmet.includeLanguages": {"django-html": "html"},
-"html.autoClosingTags": true,
-"auto-close-tag.enableAutoCloseTag": true,
-"window.zoomLevel": 1,
-"java.home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home",
-"editor.suggestSelection": "first",
-"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-"C_Cpp.updateChannel": "Insiders",
-"[javascript]": {
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
-"java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication -javaagent:\"/Users/chloe/.vscode/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\"",
-"[json]": {
-  "editor.defaultFormatter": "vscode.json-language-features"
-},
-"[javascriptreact]": {
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
-"[html]": {
-"breadcrumbs.showEnums": true,
-  "editor.defaultFormatter": "vscode.html-language-features"
-},
-"workbench.activityBar.visible": true,
-"python.jediEnabled": false,
-"files.exclude": {
-  "**/.classpath": true,
-  "**/.project": true,
-  "**/.settings": true,
-  "**/.factorypath": true
-},
-"workbench.iconTheme": "vscode-icons",
-"editor.autoClosingBrackets": "always",
-"open-in-browser.default": "chrome",
-"cSpell.enableFiletypes": [
-  "django-html"
-],
-"sqltools.useNodeRuntime": true,
-"liveServer.settings.donotShowInfoMsg": true,
-"[vue]": {
-  "editor.insertSpaces": true,
-  "editor.tabSize": 2
-},
-"[django-html]":{
-  "editor.tabSize": 2
-},
-"kite.showWelcomeNotificationOnStartup": false,
-"hediet.vscode-drawio.theme": "min",
-"python.languageServer": "Microsoft",
-"todo-tree.tree.showScanModeButton": false,
-"[typescript]": {
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
-"gitlens.advanced.fileHistoryFollowsRenames": false,
-"java.configuration.updateBuildConfiguration": "interactive",
-"java.completion.enabled": true,
-"java.semanticHighlighting.enabled": true,
-"[jsonc]": {
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
-"[typescriptreact]": {
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
-"editor.tabSize": 2,
-"go.useLanguageServer": true,
-"jupyter.sendSelectionToInteractiveWindow": true,
-"workbench.editorAssociations": {
-  "*.ipynb": "jupyter.notebook.ipynb"
-},
-"python.pythonPath": "/usr/local/bin/python3",
-"vsicons.dontShowNewVersionMessage": true,
-"go.toolsManagement.autoUpdate": true,
-"python.defaultInterpreterPath": "/usr/local/bin/python3",
-"mssql.connections": [
-  {
+{
+  "files.associations": {
+    "**/templates/*.html": "django-html",
+    "**/templates/*": "json",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements",
+    "*.html": "html",
+    "*.yaml": "yaml"
+  },
+  "emmet.includeLanguages": { "django-html": "html" },
+  "html.autoClosingTags": true,
+  "auto-close-tag.enableAutoCloseTag": true,
+  "java.home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "C_Cpp.updateChannel": "Insiders",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication -javaagent:\"/Users/chloe/.vscode/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\"",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "breadcrumbs.showEnums": true,
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "workbench.activityBar.visible": true,
+  "python.jediEnabled": false,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "editor.autoClosingBrackets": "always",
+  "open-in-browser.default": "chrome",
+  "cSpell.enableFiletypes": ["django-html"],
+  "sqltools.useNodeRuntime": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[vue]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[django-html]": {
+    "editor.tabSize": 2
+  },
+  "kite.showWelcomeNotificationOnStartup": false,
+  "hediet.vscode-drawio.theme": "min",
+  "python.languageServer": "Microsoft",
+  "todo-tree.tree.showScanModeButton": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "gitlens.advanced.fileHistoryFollowsRenames": false,
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "java.completion.enabled": true,
+  "java.semanticHighlighting.enabled": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tabSize": 2,
+  "go.useLanguageServer": true,
+  "jupyter.sendSelectionToInteractiveWindow": true,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "python.pythonPath": "/usr/local/bin/python3",
+  "vsicons.dontShowNewVersionMessage": true,
+  "go.toolsManagement.autoUpdate": true,
+  "python.defaultInterpreterPath": "/usr/local/bin/python3",
+  "mssql.connections": [
+    {
       "server": "{{put-server-name-here}}",
       "database": "{{put-database-name-here}}",
       "user": "{{put-username-here}}",
       "password": "{{put-password-here}}"
+    }
+  ],
+  "terminal.integrated.profiles.osx": {
+    "zsh": {
+      "path": "/usr/local/bin/zsh"
+    }
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "go.lintTool": "golint",
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "One Monokai",
+  "workbench.colorCustomizations": {
+    "terminal.background": "#192025",
+    "terminal.foreground": "#CBD6E2",
+    "terminalCursor.background": "#CBD6E2",
+    "terminalCursor.foreground": "#CBD6E2",
+    "terminal.ansiBlack": "#0B1C2C",
+    "terminal.ansiBlue": "#8B56BF",
+    "terminal.ansiBrightBlack": "#627E99",
+    "terminal.ansiBrightBlue": "#8B56BF",
+    "terminal.ansiBrightCyan": "#0797f7",
+    "terminal.ansiBrightGreen": "#56BF8B",
+    "terminal.ansiBrightMagenta": "#da6da3",
+    "terminal.ansiBrightRed": "#fcd941",
+    "terminal.ansiBrightWhite": "#F7F9FB",
+    "terminal.ansiBrightYellow": "#8BBF56",
+    "terminal.ansiCyan": "#568BBF",
+    "terminal.ansiGreen": "#56BF8B",
+    "terminal.ansiMagenta": "#BF568B",
+    "terminal.ansiRed": "#e9d371",
+    "terminal.ansiWhite": "#CBD6E2",
+    "terminal.ansiYellow": "#8BBF56"
   }
-],
-"terminal.integrated.profiles.osx": {
-  "zsh": {
-    "path": "/usr/local/bin/zsh"
-  }
-}
 }
