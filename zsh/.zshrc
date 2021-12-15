@@ -86,4 +86,3 @@ alias getoffwork="sh /Users/chloe/covert/chloe-conf/mac/get_off_work.sh"
 source $ZSH/oh-my-zsh.sh
 
 source /Users/chloe/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
