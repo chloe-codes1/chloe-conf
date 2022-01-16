@@ -16,6 +16,14 @@ export ZSH="/Users/chloe/.oh-my-zsh"
 # Terraform path
 export PATH="/usr/local/opt/terraform@0.12/bin:$PATH"
 
+# Java home
+export JAVA_8_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home
+export JAVA_11_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.12.jdk/Contents/Home
+
+# jenv
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+
 # nvm
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
