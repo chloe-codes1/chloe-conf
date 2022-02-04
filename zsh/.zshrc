@@ -28,6 +28,9 @@ eval "$(jenv init -)"
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
+# Lima docker host
+export DOCKER_HOST=$(limactl list docker --format 'unix://{{.Dir}}/sock/docker.sock')
+
 ZSH_THEME="spaceship"
 
 # plugins
