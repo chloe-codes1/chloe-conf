@@ -43,6 +43,8 @@
 - Gather
 - Alfred
 - Monosnap
+- Grammarly Desktop
+  
 <br>
 
 ## Etc.
@@ -50,5 +52,6 @@
 - Runcat
 - Allkdict
 - Jolt of Caffeine
+- Karabiner
 
 
