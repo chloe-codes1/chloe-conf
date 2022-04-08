@@ -56,6 +56,10 @@ ZSH_DISABLE_COMPFIX="true"
 
 source $ZSH/oh-my-zsh.sh
 
+# java alias
+alias java8="export JAVA_HOME=$JAVA_8_HOME"
+alias java11="export JAVA_HOME=$JAVA_11_HOME"
+
 # terraform alias
 alias tf=terraform
 
