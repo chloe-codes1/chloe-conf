@@ -29,11 +29,13 @@ export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
 # Lima docker host
-export DOCKER_HOST=$(limactl list docker --format 'unix://{{.Dir}}/sock/docker.sock')
+# export DOCKER_HOST=$(limactl list docker --format 'unix://{{.Dir}}/sock/docker.sock')
 
-ZSH_THEME="spaceship"
+# docker host
+eval $(docker-machine env default)
 
-# plugins
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
 plugins=(
   git
   fzf
@@ -101,3 +103,7 @@ alias getoffwork="sh /Users/chloe/covert/chloe-conf/mac/get_off_work.sh"
 source $ZSH/oh-my-zsh.sh
 
 source /Users/chloe/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+source ~/powerlevel10k/powerlevel10k.zsh-theme

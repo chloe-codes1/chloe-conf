@@ -53,5 +53,3 @@
 - Allkdict
 - Jolt of Caffeine
 - Karabiner
-
-
