@@ -35,6 +35,7 @@
 - [Must Have APPs to Download on Your Mac](/mac)
 
 - [VSCode `settings.json`](/vscode/settings.json)
+- [IntelliJ config](/intellij)
 
 <br>
 
