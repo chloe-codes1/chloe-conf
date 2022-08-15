@@ -28,11 +28,14 @@ eval "$(jenv init -)"
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
+# Docker platform for m1
+export DOCKER_DEFAULT_PLATFORM=linux/amd64
+
 # Lima docker host
 # export DOCKER_HOST=$(limactl list docker --format 'unix://{{.Dir}}/sock/docker.sock')
 
 # docker host
-eval $(docker-machine env default)
+# eval $(docker-machine env default)
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
