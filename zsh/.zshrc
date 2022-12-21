@@ -28,9 +28,6 @@ eval "$(jenv init -)"
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
-# Docker platform for m1
-export DOCKER_DEFAULT_PLATFORM=linux/amd64
-
 # Lima docker host
 # export DOCKER_HOST=$(limactl list docker --format 'unix://{{.Dir}}/sock/docker.sock')
 
@@ -102,6 +99,9 @@ export EDITOR=/usr/local/bin/nvim
 # execute get_ready_to_work & get_off_work alias
 alias gotowork="sh /Users/chloe/covert/chloe-conf/mac/get_ready_to_work.sh"
 alias getoffwork="sh /Users/chloe/covert/chloe-conf/mac/get_off_work.sh"
+
+# git alias
+alias git-switch-pull-master="git switch master && git pull origin master"
 
 source $ZSH/oh-my-zsh.sh
 
