@@ -17,7 +17,7 @@
 - Pycharm
 - Vscode
 - Sublime
-- Goland
+- IntelliJ
 - Docker
 - Kite
 - Postman
@@ -30,9 +30,7 @@
 
 ## Productivity
 - Slack
-- Jandi
 - Notion
-- Typora
 - Evernote
 - CopyClip
 - Spectacle
