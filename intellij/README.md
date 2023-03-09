@@ -6,7 +6,7 @@
 - CheckStyle-IDEA
 - Code Screenshots
 - CodeGlance Pro
-- Codota AI Autocomplete for Java and JavaScript
+- aiXcoder Code Completer
 - GitToolBox
 - JPA Buddy
 - Key Promoter X
