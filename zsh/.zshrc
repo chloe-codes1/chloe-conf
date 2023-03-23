@@ -102,6 +102,7 @@ alias getoffwork="sh /Users/chloe/covert/chloe-conf/mac/get_off_work.sh"
 
 # git alias
 alias git-switch-pull-master="git switch master && git pull origin master"
+alias git-switch-pull-main="git switch main && git pull origin main"
 
 source $ZSH/oh-my-zsh.sh
 
