@@ -1,8 +1,16 @@
+ # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+| source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Go path
-export GOPATH="/Users/chloe/workspace/go"
+export GOPATH="~/workspace/go"
 
 # vscode path
 export VSCODEPATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
@@ -11,7 +19,7 @@ export VSCODEPATH="/Applications/Visual Studio Code.app/Contents/Resources/app/b
 export PATH="$GOPATH:$PATH:$VSCODEPATH"
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/chloe/.oh-my-zsh"
+export ZSH="~/.oh-my-zsh"
 
 # Terraform path
 export PATH="/usr/local/opt/terraform@0.12/bin:$PATH"
@@ -75,9 +83,6 @@ alias k="kubectl"
 # minikube alias
 alias mini="minikube"
 
-# typora alias
-alias typora="open -a typora"
-
 # goland alias
 alias goland='/usr/local/bin/goland'
 
@@ -102,6 +107,7 @@ alias getoffwork="sh /Users/chloe/covert/chloe-conf/mac/get_off_work.sh"
 
 # git alias
 alias git-switch-pull-master="git switch master && git pull origin master"
+alias git-switch-pull-main="git switch main && git pull origin main"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -109,4 +115,6 @@ source /Users/chloe/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.z
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-source ~/powerlevel10k/powerlevel10k.zsh-theme
+source ~/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
+autoload -U promptinit; promptinit
+prompt pure
