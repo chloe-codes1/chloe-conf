@@ -32,7 +32,7 @@
 - Slack
 - Notion
 - Evernote
-- CopyClip
+- CopyClip -> Maccy가 더 나은듯!
 - Spectacle
 - Scroll Reverser
 - Snappy
