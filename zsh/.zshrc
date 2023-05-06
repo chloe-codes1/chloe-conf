@@ -18,7 +18,7 @@ export VSCODEPATH="/Applications/Visual Studio Code.app/Contents/Resources/app/b
 export PATH="$GOPATH:$PATH:$VSCODEPATH"
 
 # Path to your oh-my-zsh installation.
-export ZSH="~/.oh-my-zsh"
+export ZSH="{YOUR_USER_NAME}/.oh-my-zsh"
 
 # Terraform path
 export PATH="/usr/local/opt/terraform@0.12/bin:$PATH"
@@ -107,9 +107,9 @@ alias getoffwork="sh ~/covert/chloe-conf/mac/get_off_work.sh"
 alias git-switch-pull-master="git switch master && git pull origin master"
 alias git-switch-pull-main="git switch main && git pull origin main"
 
-source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $ZSH/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-source ~/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
+source $ZSH/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
 autoload -U promptinit; promptinit
