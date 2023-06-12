@@ -6,13 +6,14 @@
 <br>
 
 ## Basic
+
 - Chrome
 - Firefox
-
 
 <br>
 
 ## Development
+
 - Iterm2
 - Pycharm
 - Vscode
@@ -26,16 +27,18 @@
 - Cyberduck
 - DBeaver
 - Xcode
+
 <br>
 
 ## Productivity
+
 - Slack
 - Notion
 - Evernote
 - CopyClip -> Maccy가 더 나은듯!
 - Spectacle
 - Scroll Reverser
-- Snappy
+- Fuwari
 - Itsycal
 - Focus To-Do
 - Gather
@@ -45,7 +48,8 @@
   
 <br>
 
-## Etc.
+## Etc
+
 - OpenVPN Connect
 - Runcat
 - Allkdict
