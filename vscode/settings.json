@@ -4,12 +4,13 @@
     "**/templates/*": "json",
     "**/requirements{/**,*}.{txt,in}": "pip-requirements",
     "*.html": "html",
-    "*.yaml": "yaml"
+    "*.yaml": "yaml",
+    "*.config": "shellscript"
   },
   "emmet.includeLanguages": { "django-html": "html" },
   "html.autoClosingTags": true,
   "auto-close-tag.enableAutoCloseTag": true,
-  "java.home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home",
+  "java.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/corretto-17.0.4/Contents/Home",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "C_Cpp.updateChannel": "Insiders",
@@ -50,7 +51,7 @@
   },
   "kite.showWelcomeNotificationOnStartup": false,
   "hediet.vscode-drawio.theme": "min",
-  "python.languageServer": "Microsoft",
+  "python.languageServer": "Default",
   "todo-tree.tree.showScanModeButton": false,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -66,8 +67,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.tabSize": 2,
-  "go.useLanguageServer": true,
-  "jupyter.sendSelectionToInteractiveWindow": true,
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
   },
@@ -80,7 +79,7 @@
       "server": "{{put-server-name-here}}",
       "database": "{{put-database-name-here}}",
       "user": "{{put-username-here}}",
-      "password": "{{put-password-here}}"
+      "password": ""
     }
   ],
   "terminal.integrated.profiles.osx": {
@@ -93,7 +92,6 @@
     "jupyter-notebook": "left"
   },
   "go.lintTool": "golint",
-  "window.zoomLevel": 1,
   "workbench.colorTheme": "One Monokai",
   "workbench.colorCustomizations": {
     "terminal.background": "#192025",
@@ -116,5 +114,38 @@
     "terminal.ansiRed": "#e9d371",
     "terminal.ansiWhite": "#CBD6E2",
     "terminal.ansiYellow": "#8BBF56"
-  }
+  },
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "editor.accessibilitySupport": "on",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-11",
+      "path": "/Library/Java/JavaVirtualMachines/jdk-11.0.12.jdk/Contents/Home",
+      "default": true
+    }
+  ],
+  "editor.linkedEditing": true,
+  "npm.keybindingsChangedWarningShown": true,
+  "settingsSync.ignoredExtensions": [],
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "redhat.telemetry.enabled": false,
+  "window.zoomLevel": 1,
+  "jupyter.interactiveWindow.textEditor.executeSelection": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll.markdownlint": true
+  },
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "javascript.format.enable": false,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": false
 }
