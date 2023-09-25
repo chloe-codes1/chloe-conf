@@ -23,11 +23,6 @@ export ZSH="{YOUR_USER_NAME}/.oh-my-zsh"
 # Terraform path
 export PATH="/usr/local/opt/terraform@0.12/bin:$PATH"
 
-# Java home
-export JAVA_8_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home
-export JAVA_11_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.12.jdk/Contents/Home
-export JAVA_HOME=`/usr/libexec/java_home -v 17`
-
 # jenv
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
@@ -59,14 +54,12 @@ plugins=(
 # direnv
 eval "$(direnv hook zsh)"
 
+autoload -U promptinit; promptinit
+
 # oh-my-zsh
 ZSH_DISABLE_COMPFIX="true"
 
 source $ZSH/oh-my-zsh.sh
-
-# java alias
-alias java8="export JAVA_HOME=$JAVA_8_HOME"
-alias java11="export JAVA_HOME=$JAVA_11_HOME"
 
 # terraform alias
 alias tf=terraform
@@ -107,9 +100,25 @@ alias getoffwork="sh ~/covert/chloe-conf/mac/get_off_work.sh"
 alias git-switch-pull-master="git switch master && git pull origin master"
 alias git-switch-pull-main="git switch main && git pull origin main"
 
+# run mongo db docker container
+alias refresh-mongo="docker exec -it mongo-mongos1 bash refresh.sh"
+
+# open mongodb compass
+alias compass="docker ps | grep reusable_mongo | sed -E 's/.*0.0.0.0:([0-9]+).*/mongodb:\/\/localhost:\1/' | xargs open -a 'MongoDB Compass'"
+
+source $ZSH/oh-my-zsh.sh
+
 source $ZSH/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 source $ZSH/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
 autoload -U promptinit; promptinit
+prompt pure
+
+# Java home
+export JAVA_HOME=`/usr/libexec/java_home -v 17`
+
+# testcontainers
+export DOCKER_HOST="unix://${HOME}/.colima/default/docker.sock"
+export TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE=/var/run/docker.sock
