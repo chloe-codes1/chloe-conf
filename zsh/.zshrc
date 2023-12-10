@@ -117,7 +117,7 @@ autoload -U promptinit; promptinit
 prompt pure
 
 # Java home
-export JAVA_HOME=`/usr/libexec/java_home -v 17`
+export JAVA_HOME=`/usr/libexec/java_home -v 21`
 
 # testcontainers
 export DOCKER_HOST="unix://${HOME}/.colima/default/docker.sock"
